@@ -1,9 +1,8 @@
 var mysql = require("mysql");
 
-var rdsUrl =
-  "hotel-app-database-instance-1.cez1aa12qjds.us-east-2.rds.amazonaws.com";
-var password = "admin123!";
-var user = "admin";
+var rdsUrl = "";
+var password = " ";
+var user = " ";
 
 // mysql connection pool
 var rdsPool = mysql.createPool({
